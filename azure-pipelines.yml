@@ -21,7 +21,7 @@ steps:
   displayName: 'Run a multi-line script'
   
 - script: |
-    sudo docker build -t backend  
+    sudo docker build -t backend . 
     
 
   displayName: 'for building image'
